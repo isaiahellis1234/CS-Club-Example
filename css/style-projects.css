@@ -1,0 +1,41 @@
+@keyframes colorChange {
+  0% {
+    background-color: rgb(86, 136, 101);
+  }
+  50% {
+    background-color: rgb(109, 124, 211);
+  }
+  100% {
+    background-color: rgb(193, 122, 122);
+  }
+}
+
+body {
+  background-color: darkgray;
+  margin: 0;
+  padding: 0;
+  animation: colorChange 7s infinite alternate;
+}
+
+#center-section {
+  background-color: rgb(213, 149, 241);
+  width: 40%;
+  box-shadow: 40px 40px 25px rgba(0, 0, 0, 0.3);
+  margin-left: 29%;
+}
+
+#container {
+  background-color: argba(37, 13, 50, 0.579);
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Push items to opposite sides */
+  padding: 10px 20px;
+}
+
+#text-section {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  text-align: center;
+  font-size: 50px;
+}
