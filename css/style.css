@@ -1,0 +1,84 @@
+@keyframes colorChange {
+  0% {
+    background-color: rgb(86, 136, 101);
+  }
+  50% {
+    background-color: rgb(109, 124, 211);
+  }
+  100% {
+    background-color: rgb(193, 122, 122);
+  }
+}
+
+body {
+  background-color: darkgray;
+  margin: 0;
+  padding: 0;
+  animation: colorChange 7s infinite alternate;
+}
+
+#nav {
+  background-color: argba(37, 13, 50, 0.579);
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Push items to opposite sides */
+  padding: 10px 20px;
+}
+
+#navbar-title {
+  margin-left: 100px;
+  font-size: 15px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#navbar-items {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar-items li {
+  margin-left: 25px; /* Space between items */
+}
+
+#navbar-items a {
+  background-color: rgb(181, 102, 102);
+  color: white;
+  border-radius: 10%;
+  padding: 15px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.35s;
+}
+
+#navbar-items a:hover {
+  background-color: rgb(106, 86, 108);
+}
+
+.p-line {
+  font-size: 30px;
+  margin: 0;
+}
+
+#middle-section {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#social-link img {
+  width: 100px;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* So it doesn't block user interaction */
+}

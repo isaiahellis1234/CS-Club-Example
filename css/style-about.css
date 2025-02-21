@@ -1,0 +1,44 @@
+@keyframes colorChange {
+  0% {
+    background-color: rgb(86, 136, 101);
+  }
+  50% {
+    background-color: rgb(109, 124, 211);
+  }
+  100% {
+    background-color: rgb(193, 122, 122);
+  }
+}
+
+body {
+  background-color: darkgray;
+  margin: 0;
+  padding: 0;
+  animation: colorChange 7s infinite alternate;
+}
+
+#center-section {
+  background-color: rgb(171, 129, 189);
+  width: 40%;
+  box-shadow: 40px 40px 25px rgba(0, 0, 0, 0.3);
+  margin-left: 29%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+p {
+  margin-left: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.dot {
+  margin-right: 100px;
+}

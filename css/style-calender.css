@@ -1,0 +1,6 @@
+.calendar-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* float: right; */
+}
