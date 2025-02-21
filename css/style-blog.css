@@ -68,9 +68,10 @@ body {
   text-align: center;
   flex-direction: column;
   background-color: white;
-  width: 1000px;
-  margin-left: 24%;
-  padding-bottom: 100px;
+  width: 50em;
+  font-size: 1.4vw;
+  margin-left: 10em;
+  padding-bottom: 10%;
 }
 
 #scrollToTop {
